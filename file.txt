@@ -1,0 +1,77 @@
+const quizData = [
+    {
+        subject: "Mathematics",
+        questions: [
+            {
+                question: "What is the result of 5 + 3?",
+                options: [7, 8, 9, 10],
+                correctOption: 8,
+            },
+            {
+                question: "Solve: 12 ÷ 4",
+                options: [2, 3, 4, 5],
+                correctOption: 3, 
+            },
+            {
+                question: "Which of the following is equal to 3/5?",
+                options: [0.6, 0.3, 1.2, 2.1],
+                correctOption: 0.6, 
+            },
+            {
+                question: "What is the product of 6 and 7?",
+                options: [12, 35, 42, 49],
+                correctOption: 42, 
+            },
+        ]
+    },
+    {
+        subject: "English",
+        questions: [
+            {
+                question: "What is the opposite of “hot”?",
+                options: ["cold", "warm", "spicy", "boiling"],
+                correctOption: "cold",
+            },
+            {
+                question: " Which word means the same as “happy”?",
+                options: ["sad", "angry", "joyful", "tired"],
+                correctOption: "joyful", 
+            },
+            {
+                question: "Choose the correct spelling:",
+                options: ["Accommodate", "Accommodate", "Accommodate", "Accommodate"],
+                correctOption: "Accommodate", 
+            },
+            {
+                question: "What is the plural of “child”?",
+                options: ["child", "childes", "children", "childie"],
+                correctOption: "children", 
+            },
+        ]
+    },
+    {
+        subject: "coding",
+        questions: [
+            {
+                question: "Which CSS property is used to change the font size?",
+                options: ["font-size", "font-color", "font-weight", "font-family"],
+                correctOption: "font-size",
+            },
+            {
+                question: " How can you set the background color of an element in CSS?",
+                options: ["bg-color", "background-color", "background-image", "color"],
+                correctOption: "background-color", 
+            },
+            {
+                question: "What is the correct HTML tag for inserting a line break?",
+                options: ["<br>", "<li>", "<break>", "<link>"],
+                correctOption: "<br>", 
+            },
+            {
+                question: "Which keyword is used to declare a variable in JavaScript?",
+                options: ["var", "let", "const", "all of the above"],
+                correctOption: "all of the above", 
+            },
+        ]
+    },
+];

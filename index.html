@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!--============ LINKS ========== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font/css/all.css">
+</head>
+<body>
+    <div class="quiz_section">
+        <div class="quiz_container show">
+            <h1>Javascript Quiz App</h1>
+            <div class="subject_container">
+                <p>Pick a subject</p>
+                <ul class="language_container"></ul>
+            </div>
+        </div>
+        <!-- QUESTION CONTAINER -->
+        <div class="question_container">
+            <div class="question_wrapper">
+                <h2 class="number"></h2>
+                <div class="question_header">
+                    <p class="question"></p>
+                </div>
+            </div>
+
+            <ul class="answer_container"></ul>
+
+            <div class="button">
+                <button type="button" class="next_btn btn">Next</button>
+            </div>
+        </div>
+        <!-- RESULT CONTAINER -->
+        <div class="result_container">
+            <div class="result_content">
+                <h2 class="congrat_text"></h2>
+                <div class="img"></div>
+            </div>
+            <div class="scrore_container">
+                <p class="score"></p>
+                <p class="option">would you like to restart</p>
+            </div>
+            <div class="btns flex">
+                <button type="button" class="yes btn">Yes</button>
+                <button type="button" class="no btn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LINK -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
